@@ -1,0 +1,40 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: yellow; */
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}
+.contentContainer{
+    /* background-color: orange; */
+    width: 80%;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zipContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+}
+
+.zipInput{
+    height: 75px;
+    font-size: 2em;
+    text-align: center;
+    flex: 4;
+}
+
+.zipButton{
+    width: 80px;
+    font-size: 2em;
+    flex: 1;
+}
