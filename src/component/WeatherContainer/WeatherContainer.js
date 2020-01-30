@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './weatherContainer.css';
-import './WeatherDisplay/WeatherDisplay'
+import WeatherDisplay from './WeatherDisplay/WeatherDisplay'
 //import './App.css';
 
 //api.openweathermap.org/data/2.5/weather?zip={zip code},{country code}
