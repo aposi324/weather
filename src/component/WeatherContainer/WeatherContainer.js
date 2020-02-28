@@ -4,6 +4,7 @@ import './weatherContainer.css';
 import WeatherDisplay from './WeatherDisplay/WeatherDisplay'
 //import './App.css';
 
+
 //api.openweathermap.org/data/2.5/weather?zip={zip code},{country code}
 
 class WeatherContainer extends React.Component {
@@ -15,6 +16,7 @@ class WeatherContainer extends React.Component {
     render(){
         return(
             <div className="root">
+                hi :)
                 <div className = "contentContainer">
                     <div className = "zipContainer">
                         <input className="zipInput" placeholder = "Zip Code"></input>
